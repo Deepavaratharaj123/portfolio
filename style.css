@@ -5,7 +5,8 @@ COMMON
 *************/
 
 body{
-    font-family : "monospace",sans-serif; 
+    font-family : "monospace", sans-serif; 
+    
 }
 
 .font-primary{
@@ -15,6 +16,19 @@ body{
 .title-icon{
     font-size : 20px;
     font-weight : bold;
+}
+
+p{
+    font-size: 14px;
+}
+h2{
+    font-weight: bold;
+    font-size:23px;
+    margin-bottom:20px;
+}
+
+a.font-black{
+    color:#000 !important;
 }
 
 /*********
@@ -29,13 +43,14 @@ ABOUT
 }
 
 #about img{
-    border-radius:50%;
+    border-radius: 50%;
     width: 120px;
     margin-bottom: 10px;
 }
 
 #about name{
     font-size:19px;
+   /* font-weight:20px;*/
 }
 
 #about .vocation{
@@ -56,8 +71,8 @@ ABOUT
 }
 
 #about .icons {
-    font-size: 20px;
-    margin-top:5px;
+    font-size: 30px;
+    margin-top:15px;
 }
 
 #about .icons a{
@@ -65,5 +80,26 @@ ABOUT
 }
 
 .ms-6 {
-    margin-left: 7% !important;
-  }
+    margin-left: 5% !important; 
+  } 
+
+  /**********
+  PROJECTS
+  ************/
+
+#project {
+    margin:60px auto;
+    width: 80%;
+}
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+    width:100%;
+}
+
+#project .card-title{
+    font-weight: bold;
+}
